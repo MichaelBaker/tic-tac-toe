@@ -283,5 +283,7 @@ class TicTacToeGame
   end 
 end 
 
-game1 = TicTacToeGame.new
-game1.play
+if $0 == __FILE__
+  game1 = TicTacToeGame.new
+  game1.play
+end
